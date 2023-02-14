@@ -2,6 +2,7 @@
   "expo": {
     "name": "cv-mobile-app",
     "slug": "cv-mobile-app",
+    "scheme": "cv-mobile-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -29,7 +30,12 @@
       "package": "com.gunaneelamegam.cvmobileapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "resolutions": {
+      "metro": "0.73.7",
+      "metro-resolver": "0.73.7"
     }
   }
 }
